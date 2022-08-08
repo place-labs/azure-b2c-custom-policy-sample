@@ -54,7 +54,7 @@
           <!-- Update the Issuer and Audience below -->
           <!-- Audience is optional, Issuer is required-->
           <Item Key="issuer">https://{tenant}.b2clogin.com/{tenant_id}/v2.0/</Item>
-          <Item Key="audience">[ "{app_id}" ]</Item>
+          <Item Key="audience">[ "{IdentityExperienceFramework_App_ID}", "{ProxyIdentityExperienceFramework_App_ID}", "{PlaceOS_AppRegistration_App_ID}" ]</Item>
           <Item Key="client_assertion_type">urn:ietf:params:oauth:client-assertion-type:jwt-bearer</Item>
         </Metadata>
         <CryptographicKeys>
